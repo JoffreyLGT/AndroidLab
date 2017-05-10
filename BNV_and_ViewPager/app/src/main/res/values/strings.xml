@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BNV_and_ViewPager</string>
+
+    <!-- Bottom navigation view -->
+    <string name="home_action">Home</string>
+    <string name="goals_action">Goals</string>
+    <string name="success_action">Success</string>
+    <string name="account_action">Account</string>
+</resources>
