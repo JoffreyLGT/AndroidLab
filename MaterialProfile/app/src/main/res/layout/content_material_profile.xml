@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fr.joffreylagut.materialprofile.MaterialProfile"
+    tools:showIn="@layout/activity_material_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/global_stats_linear_layout">
+                <ImageView
+                    style="@style/global_stats_icon"
+                    android:src="@drawable/ic_videogame" />
+                <TextView
+                    style="@style/global_stats_text"
+                    android:text="@string/total_number_of_games_sample"/>
+            </LinearLayout>
+
+            <LinearLayout style="@style/global_stats_linear_layout">
+                <ImageView
+                    style="@style/global_stats_icon"
+                    android:src="@drawable/ic_access_time" />
+                <TextView
+                    style="@style/global_stats_text"
+                    android:text="@string/total_number_of_hours_played"/>
+            </LinearLayout>
+
+            <LinearLayout style="@style/global_stats_linear_layout">
+                <ImageView
+                    style="@style/global_stats_icon"
+                    android:src="@drawable/ic_attach_money" />
+                <TextView
+                    style="@style/global_stats_text"
+                    android:text="@string/total_amount_money_spent"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_title1"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/profile_score_vertical_margins"
+            android:layout_marginBottom="@dimen/profile_score_vertical_margins"
+            android:padding="@dimen/profile_score_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_score_sample"
+            android:textSize="@dimen/profile_score_text_size"
+            android:background="@drawable/score_frame"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_text1"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share_app"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

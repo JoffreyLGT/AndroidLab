@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MaterialProfile</string>
+    <string name="user_name_sample">User name</string>
+    <string name="total_number_of_games_sample">254 games</string>
+    <string name="action_settings">Settings</string>
+    <string name="total_number_of_hours_played">2598h played</string>
+    <string name="total_amount_money_spent">1365€ spent</string>
+    <string name="profile_title1">Your average price per hour played:</string>
+    <string name="profile_score_sample">0.75€/h</string>
+    <string name="profile_text1">Congratulation, you have reached your goal!\nYou are now able to evaluate if a game worth it at the current price before buying it.</string>
+    <string name="share_app">You like the app?\nShare it with your friend and give it a review on the Google play.</string>
+</resources>

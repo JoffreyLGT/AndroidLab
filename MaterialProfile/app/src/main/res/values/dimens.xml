@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="app_bar_height">250dp</dimen>
+    <dimen name="profile_header_bottom_rectangle_height">80dp</dimen>
+    <dimen name="profile_user_picture_frame_size">130dp</dimen>
+    <dimen name="profile_user_picture_size">125dp</dimen>
+    <dimen name="profile_user_picture_margin_bottom">50dp</dimen>
+    <dimen name="profile_user_picture_frame_margin_bottom">47.5dp</dimen>
+    <dimen name="profile_score_vertical_margins">20dp</dimen>
+    <dimen name="profile_score_padding">8dp</dimen>
+    <dimen name="profile_score_text_size">18sp</dimen>
+</resources>
